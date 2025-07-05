@@ -18,8 +18,10 @@ GGA didn't give good results but it was very fun to implement. I suspect it was 
 The code currently uses GLS solver, you can switch to GGA solver in the `Program.cs` file. The code also uses TSPLIB instances.
 
 After downloading the git repository, write in the terminal
-> dotnet run <instance name>
-to solve the given instance.
+```bash
+> dotnet run <instance-name>
+```
+to solve the given instance (e.g `a280`, `rat99`).
 
 # Acknowledgements
 I'd like to thank Andrey Lopatin for writing a very concise assignment problem solver. I also would like to thank `cp-algorithms.com` for writing the best (only) good explanation of the $O(n^3)$ hungarian algorithm.
