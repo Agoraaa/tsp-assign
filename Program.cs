@@ -46,7 +46,7 @@ internal partial class Program
         }
         Console.WriteLine($"Parsing successful. Solving a problem with {cities.Count} cities.");
         var solver = new Solver(cities);
-        solver.SolveGGA();
-        // solver.SolveGLS();
+        // solver.SolveGGA();
+        solver.SolveGLS();
     }
 }
